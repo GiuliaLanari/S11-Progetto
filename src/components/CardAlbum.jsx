@@ -8,7 +8,7 @@ const CardAlbum = function (props) {
       className="col col-3 text-center cursor text-white"
       id={props.info.id}
       onClick={() => {
-        dispatch(selezionaCanzone());
+        dispatch(selezionaCanzone(props));
       }}
     >
       <img className="img-fluid" src={props.info.album.cover_medium} alt="album foto" />

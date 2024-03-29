@@ -1,7 +1,7 @@
 import { SELECTED_SONG } from "../actions";
 
 const initialState = {
-  selezionato: [],
+  selezionato: {},
 };
 
 const mainReducer = function (state = initialState, action) {
@@ -9,7 +9,7 @@ const mainReducer = function (state = initialState, action) {
     case SELECTED_SONG:
       return {
         ...state,
-        selezionato: state.selezionato.concat(action.payload),
+        selezionato: action.payload,
       };
     default:
       return state;

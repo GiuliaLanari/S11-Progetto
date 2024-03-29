@@ -1,8 +1,8 @@
 export const SELECTED_SONG = "SELECTED_SONG";
 
-export const selezionaCanzone = (i) => {
+export const selezionaCanzone = (props) => {
   return {
     type: SELECTED_SONG,
-    payload: i,
+    payload: props,
   };
 };
