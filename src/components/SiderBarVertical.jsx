@@ -40,7 +40,8 @@ const SideBarVertical = function () {
                       </a>
                     </li>
                     <li>
-                      {/* <form className="input-group mt-3" onSubmit={search}>
+                      <form className="input-group mt-3">
+                        {/* onSubmit={search}*/}
                         <input
                           type="text"
                           className="form-control"
@@ -54,7 +55,7 @@ const SideBarVertical = function () {
                             GO
                           </button>
                         </div>
-                      </form> */}
+                      </form>
                     </li>
                   </ul>
                 </div>
